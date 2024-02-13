@@ -9,3 +9,7 @@ json
     "browser_action": { 
         "default_popup": "popup.html", 
         "default_icon": "icon.png" 
+}, 
+    "background": { 
+        "scripts": ["background.js"], 
+        "persistent": true 
