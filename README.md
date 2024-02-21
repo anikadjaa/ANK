@@ -13,3 +13,8 @@ json
     "background": { 
         "scripts": ["background.js"], 
         "persistent": true 
+MU
+html 
+<!DOCTYPE html> 
+<html> 
+<body> 
