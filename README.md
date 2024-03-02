@@ -18,3 +18,8 @@ html
 <!DOCTYPE html> 
 <html> 
 <body> 
+@@@@   4 haf
+javascript 
+document.getElementById('clicker').addEventListener('click', () => { 
+    // Sends a message to your content script 
+    chrome.tabs.query({active: true, currentWindow: 
