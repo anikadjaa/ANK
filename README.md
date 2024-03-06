@@ -23,3 +23,10 @@ javascript
 document.getElementById('clicker').addEventListener('click', () => { 
     // Sends a message to your content script 
     chrome.tabs.query({active: true, currentWindow: 
+javascript 
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) { 
+    if (request.action === "click") { 
+        // Perform the click action on some element 
+        document.querySelector('css-selector-of-target-element').click(); 
+    } 
+}); 
