@@ -30,3 +30,6 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
         document.querySelector('css-selector-of-target-element').click(); 
     } 
 }); 
+javascript 
+// Example background.js 
+console.log('Background script running')
